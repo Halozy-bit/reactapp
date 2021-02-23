@@ -1,11 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import StateProps from './StateProps';
-
+import Main from './Main';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <StateProps />
-  </React.StrictMode>,
+    <Main />,
   document.getElementById('root')
 );
